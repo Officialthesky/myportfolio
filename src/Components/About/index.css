@@ -2,7 +2,6 @@
   width: 100vw;
   height: 100vh;
   background-color: #f1faee;
-  margin-top: 10vh;
   display: flex;
 }
 .left {
@@ -38,4 +37,23 @@
 }
 .right {
   flex: 1;
+}
+@media only screen and (max-width: 600px) {
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 0px 40px 40px;
+  }
+  .left h1 {
+    font-size: 40px;
+  }
+  .left p {
+    width: 90%;
+    margin-top: 40px;
+  }
+  .right {
+    display: none;
+  }
 }

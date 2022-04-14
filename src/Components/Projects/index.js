@@ -34,10 +34,12 @@ export default function Projects() {
       </div>
       <div className="btnClass">
         <button>
-          Visit Github <GoMarkGithub />
+          Visit Github{" "}
+          <GoMarkGithub style={{ width: "20px", height: "20px" }} />
         </button>
         <button>
-          Visit Youtube <BsYoutube />
+          Visit Youtube{" "}
+          <BsYoutube style={{ color: "red", width: "20px", height: "20px" }} />
         </button>
       </div>
     </div>
