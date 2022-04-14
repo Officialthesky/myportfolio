@@ -10,19 +10,31 @@ export default function Footer() {
     <footer>
       <div className="icons">
         <div className="socialIcons">
-          <a href="https://twitter.com/Surajthesky" target="_blank">
+          <a
+            href="https://twitter.com/Surajthesky"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             <BsTwitter style={{ width: "30px", height: "30px" }} />
           </a>
         </div>
         <div className="socialIcons">
-          <a href="https://github.com/Officialthesky" target="_blank">
+          <a
+            href="https://github.com/Officialthesky"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             <FaGithub style={{ width: "30px", height: "30px" }} />
           </a>
         </div>
         <div className="socialIcons">
-          <a href="https://www.linkedin.com/in/surajthesky/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/surajthesky/"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             <AiFillLinkedin style={{ width: "30px", height: "30px" }} />
           </a>
@@ -31,6 +43,7 @@ export default function Footer() {
           <a
             href="https://open.spotify.com/show/4NR58Gr61Awrn8lu6DsLm3"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             <FaPodcast style={{ width: "30px", height: "30px" }} />

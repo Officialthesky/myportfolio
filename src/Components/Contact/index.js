@@ -44,7 +44,11 @@ export default function Contact() {
           <h2>Linkedin</h2>
           <p>Let's connect here</p>
           <h6>
-            <a href="https://www.linkedin.com/in/surajthesky/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/surajthesky/"
+              target="_blank"
+              rel="noreferrer"
+            >
               /surajthesky
             </a>
           </h6>
