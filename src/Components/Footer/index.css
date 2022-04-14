@@ -13,6 +13,18 @@ footer {
 .socialIcons {
   margin: 0px 5px 0px 5px;
 }
+.socialIcons a {
+  color: #1d3557;
+}
+.footerEndQuote {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+}
 @media only screen and (max-width: 600px) {
   footer {
     height: auto;

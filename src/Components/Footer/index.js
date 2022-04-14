@@ -10,21 +10,40 @@ export default function Footer() {
     <footer>
       <div className="icons">
         <div className="socialIcons">
-          <BsTwitter style={{ width: "30px", height: "30px" }} />
+          <a href="https://twitter.com/Surajthesky" target="_blank">
+            {" "}
+            <BsTwitter style={{ width: "30px", height: "30px" }} />
+          </a>
         </div>
         <div className="socialIcons">
-          <FaGithub style={{ width: "30px", height: "30px" }} />
+          <a href="https://github.com/Officialthesky" target="_blank">
+            {" "}
+            <FaGithub style={{ width: "30px", height: "30px" }} />
+          </a>
         </div>
         <div className="socialIcons">
-          <AiFillLinkedin style={{ width: "30px", height: "30px" }} />
+          <a href="https://www.linkedin.com/in/surajthesky/" target="_blank">
+            {" "}
+            <AiFillLinkedin style={{ width: "30px", height: "30px" }} />
+          </a>
         </div>
         <div className="socialIcons">
-          <FaPodcast style={{ width: "30px", height: "30px" }} />
+          <a
+            href="https://open.spotify.com/show/4NR58Gr61Awrn8lu6DsLm3"
+            target="_blank"
+          >
+            {" "}
+            <FaPodcast style={{ width: "30px", height: "30px" }} />
+          </a>
         </div>
       </div>
 
-      <div>
-        <p>Suraj Kumar</p>
+      <div className="footerEndQuote">
+        <p>
+          Make your life full of colors,and stand up high <br />
+          Like rainbow look awesome with their seven colors in the sky <br />
+          -Suraj Kumar
+        </p>
       </div>
     </footer>
   );

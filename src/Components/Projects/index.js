@@ -12,35 +12,35 @@ export default function Projects() {
       </div>
       <div className="projectsShow">
         <div className="project">
-          <img src="../youtubeimg.png" />
+          <img src="../youtubeimg.png" alt="youtube" />
         </div>
         <div className="project">
-          <img src="../Notionclone.png" />
+          <img src="../Notionclone.png" alt="notion" />
         </div>
         <div className="project">
-          <img src="../Hubhopper.png" />
+          <img src="../Hubhopper.png" alt="hubhopper" />
         </div>
       </div>
       <div className="projectsShow">
         <div className="project">
-          <img src="../scorekeeper.png" />
+          <img src="../scorekeeper.png" alt="scorekeeper" />
         </div>
         <div className="project">
-          <img src="../Newsverse.png" />
+          <img src="../Newsverse.png" alt="newsapi" />
         </div>
         <div className="project">
-          <img src="../Quizap.png" />
+          <img src="../Quizap.png" alt="quizapp" />
         </div>
       </div>
       <div className="btnClass">
-        <button>
+        <a href="https://github.com/Officialthesky" target="_blank">
           Visit Github{" "}
           <GoMarkGithub style={{ width: "20px", height: "20px" }} />
-        </button>
-        <button>
+        </a>
+        <a>
           Visit Youtube{" "}
           <BsYoutube style={{ color: "red", width: "20px", height: "20px" }} />
-        </button>
+        </a>
       </div>
     </div>
   );
