@@ -1,0 +1,15 @@
+footer {
+  height: 30vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+.socialIcons {
+  margin: 0px 5px 0px 5px;
+}
