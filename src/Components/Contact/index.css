@@ -39,3 +39,22 @@
 h6 {
   font-size: 15px;
 }
+@media only screen and (max-width: 600px) {
+  .contact {
+    padding-top: 0px;
+  }
+  .contactMedium {
+    flex-direction: column;
+  }
+  .contactMediumInfo {
+    padding: 20px 0px 20px 0px;
+    justify-content: space-between;
+  }
+  .contactPara {
+    padding: 0px 30px 30px 30px;
+    text-align: center;
+  }
+  h6 {
+    font-size: 20px;
+  }
+}

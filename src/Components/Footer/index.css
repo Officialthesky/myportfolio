@@ -13,3 +13,9 @@ footer {
 .socialIcons {
   margin: 0px 5px 0px 5px;
 }
+@media only screen and (max-width: 600px) {
+  footer {
+    height: auto;
+    padding: 20px 0px 20px 0px;
+  }
+}

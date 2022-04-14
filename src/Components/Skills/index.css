@@ -46,3 +46,15 @@ progress::-webkit-progress-value {
   background-color: #1d3557;
   border-radius: 7px;
 }
+@media only screen and (max-width: 600px) {
+  .skills {
+    height: auto;
+    padding: 80px 0px 80px 0px;
+  }
+  .skillsProgress {
+    flex-direction: column;
+  }
+  .skillsProgressInner {
+    margin: 10px 10px 10px 10px;
+  }
+}
