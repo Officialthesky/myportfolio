@@ -54,6 +54,11 @@ export function Project({ item }) {
             </a>
           </p>
           <p>
+            <a href={item.video} target="_blank" rel="noreferrer">
+              Video
+            </a>
+          </p>
+          <p>
             <a href={item.Github} target="_blank" rel="noreferrer">
               Github
             </a>

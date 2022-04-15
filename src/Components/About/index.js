@@ -9,8 +9,8 @@ export default function About() {
         <h1>Hey There, I'm </h1>
         <h1>Suraj Kumar</h1>
         <p>
-          I love writing code. I believe in the power of programming to
-          transform and improve the lives of people around the world.
+          I love writing code , reading books and listening smart podcasts.
+          Exploring and learning something new everyday.
         </p>
         <button className="hiremeBtn">
           <Link activeClass="active" to="contact" spy={true} smooth={true}>
@@ -18,7 +18,11 @@ export default function About() {
           </Link>{" "}
         </button>
       </div>
-      <div className="right"></div>
+      <div className="right">
+        <div className="aboutImage">
+          <img src=""></img>
+        </div>
+      </div>
     </div>
   );
 }
