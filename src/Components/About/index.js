@@ -9,8 +9,9 @@ export default function About() {
         <h1>Hey There, I'm </h1>
         <h1>Suraj Kumar</h1>
         <p>
-          I love writing code , reading books and listening smart podcasts.
-          Exploring and learning something new everyday.
+          I love writing code ,reading books and listening smart podcasts.
+          Exploring and learning something new everyday. Currently learning
+          React and Redux and try to write clean code .
         </p>
         <button className="hiremeBtn">
           <Link activeClass="active" to="contact" spy={true} smooth={true}>
@@ -20,7 +21,7 @@ export default function About() {
       </div>
       <div className="right">
         <div className="aboutImage">
-          <img src=""></img>
+          <img src="pic.png"></img>
         </div>
       </div>
     </div>
