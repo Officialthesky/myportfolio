@@ -6,7 +6,7 @@ import { SiLinkedin } from "react-icons/si";
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contactHeader">
         <div>
           <h1>Contact Me Here</h1>

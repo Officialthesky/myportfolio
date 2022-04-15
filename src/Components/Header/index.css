@@ -17,6 +17,7 @@ header {
   left: 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #f1faee;
+  z-index: 1;
 }
 .heading {
   height: 100%;

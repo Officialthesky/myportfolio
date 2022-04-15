@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-
+import { Link } from "react-scroll";
 export default function Header() {
   return (
     <header>
@@ -10,19 +10,30 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <a>Home</a>
+            <Link activeClass="active" to="home" spy={true} smooth={true}>
+              Home
+            </Link>
+          </li>
+
+          <li>
+            <Link activeClass="active" to="about" spy={true} smooth={true}>
+              About
+            </Link>{" "}
           </li>
           <li>
-            <a>About</a>
+            <Link activeClass="active" to="skills" spy={true} smooth={true}>
+              Skills
+            </Link>{" "}
           </li>
           <li>
-            <a>Skills</a>
+            <Link activeClass="active" to="projects" spy={true} smooth={true}>
+              Projects
+            </Link>{" "}
           </li>
           <li>
-            <a>Projects</a>
-          </li>
-          <li>
-            <a>Contact</a>
+            <Link activeClass="active" to="contact" spy={true} smooth={true}>
+              Contact
+            </Link>{" "}
           </li>
         </ul>
       </nav>

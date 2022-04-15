@@ -7,7 +7,7 @@ import { FaPodcast } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer id="contact">
       <div className="icons">
         <div className="socialIcons">
           <a

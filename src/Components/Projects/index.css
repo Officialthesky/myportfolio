@@ -27,13 +27,17 @@
   justify-content: center;
   align-items: center;
   margin: 20px 0px 20px 0px;
+  flex-wrap: wrap;
 }
 .project {
-  width: 350px;
+  flex: 1;
+  min-width: 330px;
+  max-width: 350px;
   height: 200px;
   background-color: #f1faee;
-  margin: 0px 20px 0px 20px;
+  margin: 0px 20px 30px 20px;
   border-radius: 10px;
+  position: relative;
 }
 .project img {
   width: 100%;
@@ -59,6 +63,47 @@
   background-color: white;
   text-decoration: none;
 }
+.projectHandler {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.overlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  color: transparent;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: blue;
+}
+.overlay p {
+  text-decoration: none;
+  border: 1px solid #ccc;
+  width: 70px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
   .projects {
     height: auto;
