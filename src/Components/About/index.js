@@ -21,7 +21,7 @@ export default function About() {
       </div>
       <div className="right">
         <div className="aboutImage">
-          <img src="pic.png"></img>
+          <img src="pic.png" alt="profilepic"></img>
         </div>
       </div>
     </div>
