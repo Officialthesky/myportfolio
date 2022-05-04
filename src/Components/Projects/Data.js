@@ -46,4 +46,11 @@ export const data = [
     Github: "https://github.com/Officialthesky/QuizApp",
     video: "",
   },
+  {
+    name: "Contactrecords",
+    img: "../Contactrecord.png",
+    live: "https://contactrecords.netlify.app/",
+    Github: "https://github.com/Officialthesky/redux-setup",
+    video: "",
+  },
 ];
