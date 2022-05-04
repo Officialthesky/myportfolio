@@ -50,7 +50,7 @@ export const data = [
     name: "Contactrecords",
     img: "../Contactrecord.png",
     live: "https://contactrecords.netlify.app/",
-    Github: "https://github.com/Officialthesky/redux-setup",
+    Github: "https://github.com/Officialthesky/contact-records",
     video: "",
   },
 ];
