@@ -1,12 +1,14 @@
 .projects {
   width: 100vw;
   min-height: 100vh;
-  background-color: #003459;
+  background-color: #ffe633;
   padding-top: 12vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #707070;
+  font-family: monospace;
 }
 .projectsHeading {
   height: 100px;
@@ -14,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #f1faee;
+  color: #707070;
 }
 .projectsHeading h1,
 .projectsHeading p {

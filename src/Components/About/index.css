@@ -1,7 +1,7 @@
 .About {
   width: 100vw;
   height: 100vh;
-  background-color: #f1faee;
+  background-color: darkslategray;
   display: flex;
 }
 .left {
@@ -16,18 +16,19 @@
 }
 .left h1 {
   font-size: 50px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #1d3557;
+  color: white;
+  font-family: monospace;
 }
 .left p {
   width: 70%;
-  /* height: 60%; */
   margin-top: 40px;
+  font-family: monospace;
+  color: white;
 }
 .hiremeBtn {
   margin-top: 40px;
-  background-color: #1d3557;
-  color: #f1faee;
+  background-color: #ffe633;
+  color: #707070;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 40px;
   border-top-left-radius: 20px;
@@ -35,6 +36,8 @@
   height: 40px;
   width: 150px;
   font-size: 20px;
+  border: 0px;
+  font-family: monospace;
 }
 .right {
   flex: 1;
