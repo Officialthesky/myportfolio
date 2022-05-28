@@ -47,7 +47,7 @@ progress::-webkit-progress-bar {
   border-radius: 7px;
 }
 progress::-webkit-progress-value {
-  background-color: #ffe633;
+  background-color: #bee;
   border-radius: 7px;
 }
 @media only screen and (max-width: 600px) {
