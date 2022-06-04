@@ -49,6 +49,7 @@
 .btnClass {
   display: flex;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 .btnClass a {
   display: flex;

@@ -14,23 +14,20 @@ export default function Projects() {
         {data.map((item, index) => {
           return <Project item={item} />;
         })}
-
-        <div className="btnClass">
-          <a
-            href="https://github.com/Officialthesky"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Visit Github{" "}
-            <GoMarkGithub style={{ width: "20px", height: "20px" }} />
-          </a>
-          <a href="/" target="_blank" rel="noreferrer">
-            Visit Youtube{" "}
-            <BsYoutube
-              style={{ color: "red", width: "20px", height: "20px" }}
-            />
-          </a>
-        </div>
+      </div>
+      <div className="btnClass">
+        <a
+          href="https://github.com/Officialthesky"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Visit Github{" "}
+          <GoMarkGithub style={{ width: "20px", height: "20px" }} />
+        </a>
+        <a href="/" target="_blank" rel="noreferrer">
+          Visit Youtube{" "}
+          <BsYoutube style={{ color: "red", width: "20px", height: "20px" }} />
+        </a>
       </div>
     </div>
   );
