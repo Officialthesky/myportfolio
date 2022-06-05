@@ -88,4 +88,11 @@ export const data = [
     Github: "https://github.com/Officialthesky/Edvora-Internship-task",
     video: "",
   },
+  {
+    name: "foodordering-app",
+    img: "../foodapp.png",
+    live: "https://foodordering-app.netlify.app/",
+    Github: "https://github.com/Officialthesky/Triceria-task",
+    video: "",
+  },
 ];
